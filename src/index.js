@@ -19,7 +19,7 @@ const handlers = {
   SessionEndedRequest: function SessionEndedRequest() {
     this.emit(':tell', STOP_MESSAGE);
   },
-  SAMPLEIntent: function GenerateIntent() {
+  SAMPLEIntent: function SAMPLEIntent() {
     if (true) {
       const speechOutput = 'Test';
       this.emit(':tellWithCard', speechOutput, SKILL_NAME, speechOutput);
